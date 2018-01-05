@@ -40,6 +40,7 @@ class Player():
         self.energyRegen = self._get_default(data, 'energyRegen', 0)
         self.health = self._get_default(data, 'health', 0)
         self.healthRegen = self._get_default(data, 'healthRegen', 0)
+        self.cloaked = self._get_default(data, 'cloaked', False)
 
         # This comes from Rankings, not sure why it's x/y
         self.x = self._get_default(data, 'x', 0)

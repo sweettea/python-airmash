@@ -377,7 +377,7 @@ server = {
     server_commands['EVENT_STEALTH']: Struct(
         'command' / Default(ServerCommands, 'EVENT_STEALTH'),
         'id' / Int16ul,
-        'state' / Flag,
+        'cloaked' / Flag,
         'energy' / HealthEnergy,
         'energyRegen' / Regen,
     ),
